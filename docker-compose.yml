@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  cd-node:
+    build: ./docker/nodejs
+    image: cd-node:latest
+    container_name: cd-node
+    ports:
+      - "2000:2000"
+    tty: true
+    restart: unless-stopped
+    volumes:
+      - ~/devel.sh:/usr/src/app/node/devel.sh
