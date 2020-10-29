@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83df4cf9-1fc3-43f3-8542-17493309d3d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +36,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603960572721</updated>
-      <workItem from="1603960573852" duration="1867000" />
+      <workItem from="1603960573852" duration="2311000" />
     </task>
+    <task id="LOCAL-00001" summary="init1">
+      <created>1603965667703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603965667703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init1" />
+    <option name="LAST_COMMIT_MESSAGE" value="init1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="345" y="55" key="CommitChangelistDialog2" timestamp="1603965667574">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="345" y="55" key="CommitChangelistDialog2/0.0.1536.960@0.0.1536.960" timestamp="1603965667574" />
+    <state x="368" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603965669170">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="368" y="207" key="Vcs.Push.Dialog.v2/0.0.1536.960@0.0.1536.960" timestamp="1603965669170" />
   </component>
 </project>

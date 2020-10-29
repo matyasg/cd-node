@@ -25,7 +25,7 @@ app.listen(port, function(){
   });
 
 
-exec('./devel.sh', (err, stdout, stderr) => {
+exec('/home/smartuscrm/CRM/cd-node/node/devel.sh', (err, stdout, stderr) => {
     if (err) {
         //some err occurred
         console.error(err)
