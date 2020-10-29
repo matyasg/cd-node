@@ -10,4 +10,4 @@ services:
     tty: true
     restart: unless-stopped
     volumes:
-      - ~/devel.sh:/usr/src/app/node/devel.sh
+      - ./node:/usr/src/app
