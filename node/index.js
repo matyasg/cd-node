@@ -3,6 +3,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var path = require('path');
 const { exec } = require('child_process');
+var fs = require('fs');
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
@@ -25,11 +26,16 @@ app.listen(port, function(){
   });
 
 exec('sh /home/smartuscrm/CRM/cd-node/node/devel.sh', (err, stdout, stderr) => {
+    fs.writeFile('test.txt', err+"-------"+stdout+"--------"+stderr, function (error) {
+        if (error) throw error;
+        console.log('Saved!');
+    });
     if (err) {
         //some err occurred
         console.error(err)
     } else {
         // the *entire* stdout and stderr (buffered)
+
         console.log(`stdout: ${stdout}`);
         console.log(`stderr: ${stderr}`);
     }
