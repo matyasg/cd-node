@@ -24,7 +24,7 @@ app.listen(port, function(){
     console.log('Server is running at port: ',port);
   });
 
-exec('/home/smartuscrm/CRM/cd-node/node/devel.sh', (err, stdout, stderr) => {
+exec('sh /home/smartuscrm/CRM/cd-node/node/devel.sh', (err, stdout, stderr) => {
     if (err) {
         //some err occurred
         console.error(err)
